@@ -1,0 +1,20 @@
+# Build output
+target/
+*.class
+
+# IntelliJ project files (Run Configuration env vars are no longer used,
+# but .idea/ is still excluded as general good practice)
+.idea/
+*.iml
+
+# NOTE: config.properties is intentionally NOT listed here — it contains
+# the API key and is meant to be committed for this private repository.
+# If you ever make this repo public, remove the real key from
+# config.properties first, or add config.properties back to this file.
+
+# Generated conversation data (not something you need in version control)
+context_store.json
+
+# OS files
+.DS_Store
+Thumbs.db
